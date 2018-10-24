@@ -16,6 +16,7 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+Pods/
 
 ## Other
 *.moved-aside
@@ -61,3 +62,6 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+*.lock
+study_iOS/Pods/AFNetworking/AFNetworking/AFCompatibilityMacros.h
+study_iOS/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h
