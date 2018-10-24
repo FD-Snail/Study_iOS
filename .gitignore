@@ -65,3 +65,4 @@ iOSInjectionProject/
 *.lock
 study_iOS/Pods/AFNetworking/AFNetworking/AFCompatibilityMacros.h
 study_iOS/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h
+study_iOS/study_iOS.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist

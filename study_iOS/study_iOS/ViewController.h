@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) NSArray *dataSource;
+
+@property (nonatomic, strong) NSArray *secondDataSource;
 
 @end
 

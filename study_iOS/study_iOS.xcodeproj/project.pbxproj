@@ -17,6 +17,9 @@
 		62D232AC2180951600332801 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D232AB2180951600332801 /* main.m */; };
 		62D232B62180951600332801 /* study_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D232B52180951600332801 /* study_iOSTests.m */; };
 		62D232C12180951600332801 /* study_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D232C02180951600332801 /* study_iOSUITests.m */; };
+		62D232D82180B9DC00332801 /* mainTableView_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D232D62180B9DC00332801 /* mainTableView_Cell.m */; };
+		62D232D92180B9DC00332801 /* mainTableView_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62D232D72180B9DC00332801 /* mainTableView_Cell.xib */; };
+		62D232DC2180CAD400332801 /* FMDBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D232DB2180CAD400332801 /* FMDBVC.m */; };
 		C2D3355DF0FB07D0026BA48B /* libPods-study_iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A9AF6431E631F330F7EB2A /* libPods-study_iOSTests.a */; };
 		D1221F6A22D2FC9FB5113F75 /* libPods-study_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FEF73C422B39A7C2C2C6D3 /* libPods-study_iOS.a */; };
 /* End PBXBuildFile section */
@@ -61,6 +64,11 @@
 		62D232BC2180951600332801 /* study_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = study_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D232C02180951600332801 /* study_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = study_iOSUITests.m; sourceTree = "<group>"; };
 		62D232C22180951600332801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D232D52180B9DC00332801 /* mainTableView_Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainTableView_Cell.h; sourceTree = "<group>"; };
+		62D232D62180B9DC00332801 /* mainTableView_Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainTableView_Cell.m; sourceTree = "<group>"; };
+		62D232D72180B9DC00332801 /* mainTableView_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainTableView_Cell.xib; sourceTree = "<group>"; };
+		62D232DA2180CAD400332801 /* FMDBVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDBVC.h; sourceTree = "<group>"; };
+		62D232DB2180CAD400332801 /* FMDBVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDBVC.m; sourceTree = "<group>"; };
 		80A9AF6431E631F330F7EB2A /* libPods-study_iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-study_iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC83DE1E6639BEF1E29D6F11 /* libPods-study_iOSUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-study_iOSUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE06ACDAD06A1C0F580C8AB0 /* Pods-study_iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-study_iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-study_iOSUITests/Pods-study_iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +145,10 @@
 				62D2329A2180951400332801 /* AppDelegate.m */,
 				62D2329C2180951400332801 /* ViewController.h */,
 				62D2329D2180951400332801 /* ViewController.m */,
+				62D232D52180B9DC00332801 /* mainTableView_Cell.h */,
+				62D232D62180B9DC00332801 /* mainTableView_Cell.m */,
+				62D232D72180B9DC00332801 /* mainTableView_Cell.xib */,
+				62D232D42180B34700332801 /* FMDB */,
 				62D2329F2180951400332801 /* Main.storyboard */,
 				62D232A52180951500332801 /* Assets.xcassets */,
 				62D232A72180951500332801 /* LaunchScreen.storyboard */,
@@ -163,6 +175,23 @@
 				62D232C22180951600332801 /* Info.plist */,
 			);
 			path = study_iOSUITests;
+			sourceTree = "<group>";
+		};
+		62D232D42180B34700332801 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				62D232DD2180CAFC00332801 /* FMDB单例 */,
+				62D232DA2180CAD400332801 /* FMDBVC.h */,
+				62D232DB2180CAD400332801 /* FMDBVC.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		62D232DD2180CAFC00332801 /* FMDB单例 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "FMDB单例";
 			sourceTree = "<group>";
 		};
 		80BFB10F8B77C68C28E485F1 /* Frameworks */ = {
@@ -292,6 +321,7 @@
 			files = (
 				62D232A92180951500332801 /* LaunchScreen.storyboard in Resources */,
 				62D232A62180951500332801 /* Assets.xcassets in Resources */,
+				62D232D92180B9DC00332801 /* mainTableView_Cell.xib in Resources */,
 				62D232A12180951400332801 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,6 +488,8 @@
 				62D2329E2180951400332801 /* ViewController.m in Sources */,
 				62D2329B2180951400332801 /* AppDelegate.m in Sources */,
 				62D232AC2180951600332801 /* main.m in Sources */,
+				62D232DC2180CAD400332801 /* FMDBVC.m in Sources */,
+				62D232D82180B9DC00332801 /* mainTableView_Cell.m in Sources */,
 				62D232A42180951400332801 /* study_iOS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
