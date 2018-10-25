@@ -11,6 +11,9 @@
 
 #import "ViewController.h"
 #import "mainTableView_Cell.h"
+#import "Navi_VC1.h"
+#import "FMDBVC.h"
+
 
 
 
@@ -24,12 +27,19 @@
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _dataSource = @[@"FMDB",@"转场动画"];
-    _secondDataSource = @[@"FMDB简介:\nFMDB是iOS平台的SQLite数据库框架\nFMDB以OC的方式封装了SQLite的C语言API\n2.FMDB的优点\n使用起来更加面向对象，省去了很多麻烦、冗余的C语言代码\n对比苹果自带的Core Data框架，更加轻量级和灵活\n提供了多线程安全的数据库操作方法，有效地防止数据混乱",
-                          @""];
+    /** 设置navi */
+    self.title = @"ROOT";
+    _dataSource = @[@"Navigation",@"FMDB",@"转场动画"];
+    _secondDataSource = @[@"1.系统的navi\n2.自定义navi，各种运用",
+                          @"FMDB简介:\nFMDB是iOS平台的SQLite数据库框架\nFMDB以OC的方式封装了SQLite的C语言API\n2.FMDB的优点\n使用起来更加面向对象，省去了很多麻烦、冗余的C语言代码\n对比苹果自带的Core Data框架，更加轻量级和灵活\n提供了多线程安全的数据库操作方法，有效地防止数据混乱",
+                          @"各种转场动画"];
     [self.view addSubview:self.tableView];
+    
+    
 }
 
 - (UITableView *)tableView{
@@ -67,6 +77,13 @@
 
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return _dataSource.count;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.row == 0) {
+        Navi_VC1 *vc1 = [[Navi_VC1 alloc] init];
+        [self.rt_navigationController pushViewController:vc1 animated:true];
+    }
 }
 //
 //- (void)encodeWithCoder:(nonnull NSCoder *)aCoder {

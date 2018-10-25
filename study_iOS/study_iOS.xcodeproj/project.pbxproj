@@ -8,17 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		21D767D04AFA8F634972649C /* libPods-study_iOSUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC83DE1E6639BEF1E29D6F11 /* libPods-study_iOSUITests.a */; };
+		624842DD2181740500CF500D /* mainTableView_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842D82181740400CF500D /* mainTableView_Cell.m */; };
+		624842DE2181740500CF500D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842D92181740400CF500D /* ViewController.m */; };
+		624842DF2181740500CF500D /* mainTableView_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 624842DB2181740400CF500D /* mainTableView_Cell.xib */; };
+		624842F021817F8600CF500D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624842EF21817F8600CF500D /* LaunchScreen.storyboard */; };
+		624842F32181804700CF500D /* WK_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842F22181804700CF500D /* WK_Tools.m */; };
+		624842F62181825D00CF500D /* WK_BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842F52181825D00CF500D /* WK_BaseVC.m */; };
+		624842F92181862300CF500D /* Navi_VC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842F82181862300CF500D /* Navi_VC1.m */; };
+		624842FC218197E800CF500D /* Navi_VC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842FB218197E800CF500D /* Navi_VC2.m */; };
 		62D2329B2180951400332801 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D2329A2180951400332801 /* AppDelegate.m */; };
-		62D2329E2180951400332801 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D2329D2180951400332801 /* ViewController.m */; };
-		62D232A12180951400332801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D2329F2180951400332801 /* Main.storyboard */; };
 		62D232A42180951400332801 /* study_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62D232A22180951400332801 /* study_iOS.xcdatamodeld */; };
 		62D232A62180951500332801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D232A52180951500332801 /* Assets.xcassets */; };
-		62D232A92180951500332801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D232A72180951500332801 /* LaunchScreen.storyboard */; };
 		62D232AC2180951600332801 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D232AB2180951600332801 /* main.m */; };
 		62D232B62180951600332801 /* study_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D232B52180951600332801 /* study_iOSTests.m */; };
 		62D232C12180951600332801 /* study_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D232C02180951600332801 /* study_iOSUITests.m */; };
-		62D232D82180B9DC00332801 /* mainTableView_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D232D62180B9DC00332801 /* mainTableView_Cell.m */; };
-		62D232D92180B9DC00332801 /* mainTableView_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62D232D72180B9DC00332801 /* mainTableView_Cell.xib */; };
 		62D232DC2180CAD400332801 /* FMDBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D232DB2180CAD400332801 /* FMDBVC.m */; };
 		C2D3355DF0FB07D0026BA48B /* libPods-study_iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A9AF6431E631F330F7EB2A /* libPods-study_iOSTests.a */; };
 		D1221F6A22D2FC9FB5113F75 /* libPods-study_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FEF73C422B39A7C2C2C6D3 /* libPods-study_iOS.a */; };
@@ -47,15 +50,26 @@
 		2655DBA3FE2066C63EAB9F29 /* Pods-study_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-study_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-study_iOS/Pods-study_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		2F272173DF612BE8AECFBE6B /* Pods-study_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-study_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-study_iOS/Pods-study_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		3DCA76B6161445A5356F2815 /* Pods-study_iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-study_iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-study_iOSUITests/Pods-study_iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		624842D82181740400CF500D /* mainTableView_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainTableView_Cell.m; sourceTree = "<group>"; };
+		624842D92181740400CF500D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		624842DA2181740400CF500D /* mainTableView_Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainTableView_Cell.h; sourceTree = "<group>"; };
+		624842DB2181740400CF500D /* mainTableView_Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainTableView_Cell.xib; sourceTree = "<group>"; };
+		624842DC2181740400CF500D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		624842EE21817E9300CF500D /* WK_Study_iOS.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WK_Study_iOS.pch; sourceTree = "<group>"; };
+		624842EF21817F8600CF500D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		624842F12181804700CF500D /* WK_Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WK_Tools.h; sourceTree = "<group>"; };
+		624842F22181804700CF500D /* WK_Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WK_Tools.m; sourceTree = "<group>"; };
+		624842F42181825D00CF500D /* WK_BaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WK_BaseVC.h; sourceTree = "<group>"; };
+		624842F52181825D00CF500D /* WK_BaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WK_BaseVC.m; sourceTree = "<group>"; };
+		624842F72181862300CF500D /* Navi_VC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Navi_VC1.h; sourceTree = "<group>"; };
+		624842F82181862300CF500D /* Navi_VC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Navi_VC1.m; sourceTree = "<group>"; };
+		624842FA218197E800CF500D /* Navi_VC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Navi_VC2.h; sourceTree = "<group>"; };
+		624842FB218197E800CF500D /* Navi_VC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Navi_VC2.m; sourceTree = "<group>"; };
 		62D232962180951400332801 /* study_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = study_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D232992180951400332801 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62D2329A2180951400332801 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		62D2329C2180951400332801 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		62D2329D2180951400332801 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		62D232A02180951400332801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62D232A32180951400332801 /* study_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = study_iOS.xcdatamodel; sourceTree = "<group>"; };
 		62D232A52180951500332801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		62D232A82180951500332801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62D232AA2180951600332801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62D232AB2180951600332801 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		62D232B12180951600332801 /* study_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = study_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,9 +78,6 @@
 		62D232BC2180951600332801 /* study_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = study_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D232C02180951600332801 /* study_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = study_iOSUITests.m; sourceTree = "<group>"; };
 		62D232C22180951600332801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62D232D52180B9DC00332801 /* mainTableView_Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainTableView_Cell.h; sourceTree = "<group>"; };
-		62D232D62180B9DC00332801 /* mainTableView_Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainTableView_Cell.m; sourceTree = "<group>"; };
-		62D232D72180B9DC00332801 /* mainTableView_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainTableView_Cell.xib; sourceTree = "<group>"; };
 		62D232DA2180CAD400332801 /* FMDBVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDBVC.h; sourceTree = "<group>"; };
 		62D232DB2180CAD400332801 /* FMDBVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDBVC.m; sourceTree = "<group>"; };
 		80A9AF6431E631F330F7EB2A /* libPods-study_iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-study_iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +127,48 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		624842D52181735C00CF500D /* libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		624842D6218173C200CF500D /* Navi */ = {
+			isa = PBXGroup;
+			children = (
+				624842F42181825D00CF500D /* WK_BaseVC.h */,
+				624842F52181825D00CF500D /* WK_BaseVC.m */,
+				624842F72181862300CF500D /* Navi_VC1.h */,
+				624842F82181862300CF500D /* Navi_VC1.m */,
+				624842FA218197E800CF500D /* Navi_VC2.h */,
+				624842FB218197E800CF500D /* Navi_VC2.m */,
+			);
+			path = Navi;
+			sourceTree = "<group>";
+		};
+		624842D72181740400CF500D /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				624842DC2181740400CF500D /* ViewController.h */,
+				624842D92181740400CF500D /* ViewController.m */,
+				624842DA2181740400CF500D /* mainTableView_Cell.h */,
+				624842D82181740400CF500D /* mainTableView_Cell.m */,
+				624842DB2181740400CF500D /* mainTableView_Cell.xib */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		624842ED21817E2200CF500D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				624842EE21817E9300CF500D /* WK_Study_iOS.pch */,
+				624842F12181804700CF500D /* WK_Tools.h */,
+				624842F22181804700CF500D /* WK_Tools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		62D2328D2180951400332801 = {
 			isa = PBXGroup;
 			children = (
@@ -143,17 +196,15 @@
 			children = (
 				62D232992180951400332801 /* AppDelegate.h */,
 				62D2329A2180951400332801 /* AppDelegate.m */,
-				62D2329C2180951400332801 /* ViewController.h */,
-				62D2329D2180951400332801 /* ViewController.m */,
-				62D232D52180B9DC00332801 /* mainTableView_Cell.h */,
-				62D232D62180B9DC00332801 /* mainTableView_Cell.m */,
-				62D232D72180B9DC00332801 /* mainTableView_Cell.xib */,
+				624842ED21817E2200CF500D /* Tools */,
+				624842D72181740400CF500D /* 首页 */,
+				624842D6218173C200CF500D /* Navi */,
 				62D232D42180B34700332801 /* FMDB */,
-				62D2329F2180951400332801 /* Main.storyboard */,
 				62D232A52180951500332801 /* Assets.xcassets */,
-				62D232A72180951500332801 /* LaunchScreen.storyboard */,
 				62D232AA2180951600332801 /* Info.plist */,
 				62D232AB2180951600332801 /* main.m */,
+				624842EF21817F8600CF500D /* LaunchScreen.storyboard */,
+				624842D52181735C00CF500D /* libs */,
 				62D232A22180951400332801 /* study_iOS.xcdatamodeld */,
 			);
 			path = study_iOS;
@@ -319,10 +370,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62D232A92180951500332801 /* LaunchScreen.storyboard in Resources */,
+				624842F021817F8600CF500D /* LaunchScreen.storyboard in Resources */,
 				62D232A62180951500332801 /* Assets.xcassets in Resources */,
-				62D232D92180B9DC00332801 /* mainTableView_Cell.xib in Resources */,
-				62D232A12180951400332801 /* Main.storyboard in Resources */,
+				624842DF2181740500CF500D /* mainTableView_Cell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,12 +535,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62D2329E2180951400332801 /* ViewController.m in Sources */,
+				624842DE2181740500CF500D /* ViewController.m in Sources */,
 				62D2329B2180951400332801 /* AppDelegate.m in Sources */,
+				624842F32181804700CF500D /* WK_Tools.m in Sources */,
+				624842F92181862300CF500D /* Navi_VC1.m in Sources */,
+				624842F62181825D00CF500D /* WK_BaseVC.m in Sources */,
 				62D232AC2180951600332801 /* main.m in Sources */,
 				62D232DC2180CAD400332801 /* FMDBVC.m in Sources */,
-				62D232D82180B9DC00332801 /* mainTableView_Cell.m in Sources */,
+				624842DD2181740500CF500D /* mainTableView_Cell.m in Sources */,
 				62D232A42180951400332801 /* study_iOS.xcdatamodeld in Sources */,
+				624842FC218197E800CF500D /* Navi_VC2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,25 +578,6 @@
 			targetProxy = 62D232BD2180951600332801 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		62D2329F2180951400332801 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62D232A02180951400332801 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		62D232A72180951500332801 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62D232A82180951500332801 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		62D232C32180951600332801 /* Debug */ = {
@@ -664,11 +699,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXH74UCC7X;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/study_iOS/Tools/WK_Study_iOS.pch";
 				INFOPLIST_FILE = study_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wukeng.study-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -679,11 +716,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXH74UCC7X;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/study_iOS/study_iOS/Tools/WK_Study_iOS.pch";
 				INFOPLIST_FILE = study_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wukeng.study-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,21 @@
+//
+//  WK_Study_iOS.pch
+//  study_iOS
+//
+//  Created by wukeng on 2018/10/25.
+//  Copyright © 2018年 吴铿. All rights reserved.
+//
+
+#ifndef WK_Study_iOS_pch
+#define WK_Study_iOS_pch
+
+#import "WK_Tools.h"
+
+
+
+/** 尺寸的宏定义 */
+#define SCREEN_SIZE  [[UIScreen mainScreen] bounds].size
+#define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
+
+#endif /* WK_Study_iOS_pch */

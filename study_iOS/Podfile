@@ -10,6 +10,7 @@ target 'study_iOS' do
 	pod 'AFNetworking'
 	pod 'Toast'
 	pod 'FMDB'
+    pod 'RTRootNavigationController'
 
   target 'study_iOSTests' do
     inherit! :search_paths
