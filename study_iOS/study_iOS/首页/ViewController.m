@@ -12,6 +12,7 @@
 #import "ViewController.h"
 #import "mainTableView_Cell.h"
 #import "Navi_VC1.h"
+#import "Photo_MainVC.h"
 #import "FMDBVC.h"
 
 
@@ -33,8 +34,9 @@
     [super viewDidLoad];
     /** 设置navi */
     self.title = @"ROOT";
-    _dataSource = @[@"Navigation",@"FMDB",@"转场动画"];
+    _dataSource = @[@"Navigation",@"图片选择器和相机",@"FMDB",@"转场动画"];
     _secondDataSource = @[@"1.系统的navi\n2.自定义navi，各种运用",
+                          @"基于HXPhotoPicker框架的图片选择器。\n1.首先你要Plist里面允许相机及相册。\n2.查看/选择GIF图片，照片和视频同时多选。\n3.3DTouch预览照片。\n4长按拖动改变顺序。\n5.自定义相机拍照/录制视频。\n6.自定义转场动画、查看/选择LivePhoto iOS9.1以上才能用、支持浏览网络图片、支持自定义裁剪、支持传入本地图片、支持在线下载iCloud上的资源",
                           @"FMDB简介:\nFMDB是iOS平台的SQLite数据库框架\nFMDB以OC的方式封装了SQLite的C语言API\n2.FMDB的优点\n使用起来更加面向对象，省去了很多麻烦、冗余的C语言代码\n对比苹果自带的Core Data框架，更加轻量级和灵活\n提供了多线程安全的数据库操作方法，有效地防止数据混乱",
                           @"各种转场动画"];
     [self.view addSubview:self.tableView];
@@ -83,6 +85,10 @@
     if (indexPath.row == 0) {
         Navi_VC1 *vc1 = [[Navi_VC1 alloc] init];
         [self.rt_navigationController pushViewController:vc1 animated:true];
+    }
+    else if(indexPath.row == 1){
+        Photo_MainVC *photo = [[Photo_MainVC alloc] init];
+        [self.rt_navigationController pushViewController:photo animated:true];
     }
 }
 //

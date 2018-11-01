@@ -25,8 +25,9 @@
 - (void)setupUI{
     // 设置应用的背景色
     self.view.backgroundColor = [UIColor lightGrayColor];
+//    self.navigationController.navigationBar.barTintColor = [UIColor lightGrayColor];
     // 不允许 viewController 自动调整，我们自己布局；如果设置为YES，视图会自动下移 64 像素
-    self.automaticallyAdjustsScrollViewInsets = NO;
+//    self.automaticallyAdjustsScrollViewInsets = NO;
 }
 
 

@@ -67,7 +67,7 @@
 
 
 - (void)goback{
-    [self.navigationController popViewControllerAnimated:true];
+    [self.rt_navigationController popViewControllerAnimated:true];
 }
 
 - (void)btn2Click{
@@ -76,7 +76,7 @@
 
 - (void)rightBtnClicked{
     Navi_VC2 *vc = [[Navi_VC2 alloc] init];
-    [self.navigationController pushViewController:vc animated:true];
+    [self.rt_navigationController pushViewController:vc animated:true];
 }
 
 - (void)goNextWithDeleteSelf{
