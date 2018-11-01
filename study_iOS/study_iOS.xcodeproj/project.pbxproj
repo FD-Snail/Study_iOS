@@ -16,6 +16,8 @@
 		624842F62181825D00CF500D /* WK_BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842F52181825D00CF500D /* WK_BaseVC.m */; };
 		624842F92181862300CF500D /* Navi_VC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842F82181862300CF500D /* Navi_VC1.m */; };
 		624842FC218197E800CF500D /* Navi_VC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842FB218197E800CF500D /* Navi_VC2.m */; };
+		624C4175218ADD1F0009A795 /* Touch_MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 624C4174218ADD1F0009A795 /* Touch_MainVC.m */; };
+		624C4178218AED660009A795 /* Touch_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 624C4177218AED660009A795 /* Touch_Demo.m */; };
 		627D24FD2184087400D04160 /* HXCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D24AA2184087400D04160 /* HXCustomCameraViewController.m */; };
 		627D24FE2184087400D04160 /* UIViewController+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D24AB2184087400D04160 /* UIViewController+HXExtension.m */; };
 		627D24FF2184087400D04160 /* HXPhotoConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D24AC2184087400D04160 /* HXPhotoConfiguration.m */; };
@@ -108,6 +110,10 @@
 		624842F82181862300CF500D /* Navi_VC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Navi_VC1.m; sourceTree = "<group>"; };
 		624842FA218197E800CF500D /* Navi_VC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Navi_VC2.h; sourceTree = "<group>"; };
 		624842FB218197E800CF500D /* Navi_VC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Navi_VC2.m; sourceTree = "<group>"; };
+		624C4173218ADD1F0009A795 /* Touch_MainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Touch_MainVC.h; sourceTree = "<group>"; };
+		624C4174218ADD1F0009A795 /* Touch_MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Touch_MainVC.m; sourceTree = "<group>"; };
+		624C4176218AED660009A795 /* Touch_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Touch_Demo.h; sourceTree = "<group>"; };
+		624C4177218AED660009A795 /* Touch_Demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Touch_Demo.m; sourceTree = "<group>"; };
 		627D24AA2184087400D04160 /* HXCustomCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomCameraViewController.m; sourceTree = "<group>"; };
 		627D24AB2184087400D04160 /* UIViewController+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HXExtension.m"; sourceTree = "<group>"; };
 		627D24AC2184087400D04160 /* HXPhotoConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoConfiguration.m; sourceTree = "<group>"; };
@@ -299,6 +305,17 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		624C4172218ADC380009A795 /* 触摸事件 */ = {
+			isa = PBXGroup;
+			children = (
+				624C4173218ADD1F0009A795 /* Touch_MainVC.h */,
+				624C4174218ADD1F0009A795 /* Touch_MainVC.m */,
+				624C4176218AED660009A795 /* Touch_Demo.h */,
+				624C4177218AED660009A795 /* Touch_Demo.m */,
+			);
+			path = "触摸事件";
+			sourceTree = "<group>";
+		};
 		627D24A82184083200D04160 /* 图片选择器及相机 */ = {
 			isa = PBXGroup;
 			children = (
@@ -430,8 +447,9 @@
 				62D2329A2180951400332801 /* AppDelegate.m */,
 				624842ED21817E2200CF500D /* Tools */,
 				624842D72181740400CF500D /* 首页 */,
-				627D24A82184083200D04160 /* 图片选择器及相机 */,
 				624842D6218173C200CF500D /* Navi */,
+				627D24A82184083200D04160 /* 图片选择器及相机 */,
+				624C4172218ADC380009A795 /* 触摸事件 */,
 				62D232D42180B34700332801 /* FMDB */,
 				62D232A52180951500332801 /* Assets.xcassets */,
 				62D232AA2180951600332801 /* Info.plist */,
@@ -775,6 +793,7 @@
 				627D25282184192600D04160 /* Photo_MainVC.m in Sources */,
 				624842DE2181740500CF500D /* ViewController.m in Sources */,
 				62D2329B2180951400332801 /* AppDelegate.m in Sources */,
+				624C4175218ADD1F0009A795 /* Touch_MainVC.m in Sources */,
 				627D25092184087400D04160 /* HXAlbumListViewController.m in Sources */,
 				627D25072184087400D04160 /* HXDatePhotoInteractiveTransition.m in Sources */,
 				627D25162184087400D04160 /* HXPhotoView.m in Sources */,
@@ -802,6 +821,7 @@
 				627D250A2184087400D04160 /* UIView+HXExtension.m in Sources */,
 				627D25192184087400D04160 /* HXCustomNavigationController.m in Sources */,
 				627D25132184087400D04160 /* UIImage+HXExtension.m in Sources */,
+				624C4178218AED660009A795 /* Touch_Demo.m in Sources */,
 				62D232A42180951400332801 /* study_iOS.xcdatamodeld in Sources */,
 				627D251F2184087400D04160 /* HXCustomPreviewView.m in Sources */,
 				627D250C2184087400D04160 /* HXPhotoTools.m in Sources */,
