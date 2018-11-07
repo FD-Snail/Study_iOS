@@ -1,8 +1,8 @@
 //
-//  Touch_Demo.h
+//  Navi_VC3.h
 //  study_iOS
 //
-//  Created by wukeng on 2018/11/1.
+//  Created by wukeng on 2018/11/2.
 //  Copyright © 2018年 吴铿. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Touch_Demo : UIViewController
+@interface Navi_VC3 : WK_BaseVC
 
 @end
 

@@ -17,7 +17,6 @@
 		624842F92181862300CF500D /* Navi_VC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842F82181862300CF500D /* Navi_VC1.m */; };
 		624842FC218197E800CF500D /* Navi_VC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842FB218197E800CF500D /* Navi_VC2.m */; };
 		624C4175218ADD1F0009A795 /* Touch_MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 624C4174218ADD1F0009A795 /* Touch_MainVC.m */; };
-		624C4178218AED660009A795 /* Touch_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 624C4177218AED660009A795 /* Touch_Demo.m */; };
 		627D24FD2184087400D04160 /* HXCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D24AA2184087400D04160 /* HXCustomCameraViewController.m */; };
 		627D24FE2184087400D04160 /* UIViewController+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D24AB2184087400D04160 /* UIViewController+HXExtension.m */; };
 		627D24FF2184087400D04160 /* HXPhotoConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D24AC2184087400D04160 /* HXPhotoConfiguration.m */; };
@@ -61,6 +60,7 @@
 		627D25252184087400D04160 /* HXDatePhotoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D24FA2184087400D04160 /* HXDatePhotoEditViewController.m */; };
 		627D25282184192600D04160 /* Photo_MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D25272184192600D04160 /* Photo_MainVC.m */; };
 		627D252B21842AA400D04160 /* Demo1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D252A21842AA400D04160 /* Demo1VC.m */; };
+		62BA29E0218C317A009FEB19 /* Navi_VC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BA29DF218C317A009FEB19 /* Navi_VC3.m */; };
 		62D2329B2180951400332801 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D2329A2180951400332801 /* AppDelegate.m */; };
 		62D232A42180951400332801 /* study_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62D232A22180951400332801 /* study_iOS.xcdatamodeld */; };
 		62D232A62180951500332801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D232A52180951500332801 /* Assets.xcassets */; };
@@ -112,8 +112,6 @@
 		624842FB218197E800CF500D /* Navi_VC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Navi_VC2.m; sourceTree = "<group>"; };
 		624C4173218ADD1F0009A795 /* Touch_MainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Touch_MainVC.h; sourceTree = "<group>"; };
 		624C4174218ADD1F0009A795 /* Touch_MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Touch_MainVC.m; sourceTree = "<group>"; };
-		624C4176218AED660009A795 /* Touch_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Touch_Demo.h; sourceTree = "<group>"; };
-		624C4177218AED660009A795 /* Touch_Demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Touch_Demo.m; sourceTree = "<group>"; };
 		627D24AA2184087400D04160 /* HXCustomCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomCameraViewController.m; sourceTree = "<group>"; };
 		627D24AB2184087400D04160 /* UIViewController+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HXExtension.m"; sourceTree = "<group>"; };
 		627D24AC2184087400D04160 /* HXPhotoConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoConfiguration.m; sourceTree = "<group>"; };
@@ -201,6 +199,8 @@
 		627D25272184192600D04160 /* Photo_MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo_MainVC.m; sourceTree = "<group>"; };
 		627D252921842AA400D04160 /* Demo1VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1VC.h; sourceTree = "<group>"; };
 		627D252A21842AA400D04160 /* Demo1VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1VC.m; sourceTree = "<group>"; };
+		62BA29DE218C317A009FEB19 /* Navi_VC3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Navi_VC3.h; sourceTree = "<group>"; };
+		62BA29DF218C317A009FEB19 /* Navi_VC3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Navi_VC3.m; sourceTree = "<group>"; };
 		62D232962180951400332801 /* study_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = study_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D232992180951400332801 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62D2329A2180951400332801 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -279,6 +279,8 @@
 				624842F82181862300CF500D /* Navi_VC1.m */,
 				624842FA218197E800CF500D /* Navi_VC2.h */,
 				624842FB218197E800CF500D /* Navi_VC2.m */,
+				62BA29DE218C317A009FEB19 /* Navi_VC3.h */,
+				62BA29DF218C317A009FEB19 /* Navi_VC3.m */,
 			);
 			path = Navi;
 			sourceTree = "<group>";
@@ -310,8 +312,6 @@
 			children = (
 				624C4173218ADD1F0009A795 /* Touch_MainVC.h */,
 				624C4174218ADD1F0009A795 /* Touch_MainVC.m */,
-				624C4176218AED660009A795 /* Touch_Demo.h */,
-				624C4177218AED660009A795 /* Touch_Demo.m */,
 			);
 			path = "触摸事件";
 			sourceTree = "<group>";
@@ -803,6 +803,7 @@
 				624842F32181804700CF500D /* WK_Tools.m in Sources */,
 				627D25062184087400D04160 /* UIFont+HXExtension.m in Sources */,
 				627D25022184087400D04160 /* HXDatePhotoPreviewBottomView.m in Sources */,
+				62BA29E0218C317A009FEB19 /* Navi_VC3.m in Sources */,
 				624842F92181862300CF500D /* Navi_VC1.m in Sources */,
 				624842F62181825D00CF500D /* WK_BaseVC.m in Sources */,
 				627D25182184087400D04160 /* NSDate+HXExtension.m in Sources */,
@@ -821,7 +822,6 @@
 				627D250A2184087400D04160 /* UIView+HXExtension.m in Sources */,
 				627D25192184087400D04160 /* HXCustomNavigationController.m in Sources */,
 				627D25132184087400D04160 /* UIImage+HXExtension.m in Sources */,
-				624C4178218AED660009A795 /* Touch_Demo.m in Sources */,
 				62D232A42180951400332801 /* study_iOS.xcdatamodeld in Sources */,
 				627D251F2184087400D04160 /* HXCustomPreviewView.m in Sources */,
 				627D250C2184087400D04160 /* HXPhotoTools.m in Sources */,

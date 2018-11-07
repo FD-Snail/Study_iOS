@@ -8,6 +8,7 @@
 
 #import "Navi_VC1.h"
 #import "Navi_VC2.h"
+#import "Navi_VC3.h"
 
 @interface Navi_VC1 ()
 
@@ -61,6 +62,20 @@
     [deleteSelf addTarget:self action:@selector(goNextWithDeleteSelf) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:deleteSelf];
     
+    /** 下拉隐藏 */
+    UIButton *nextBtn = [[UIButton alloc] initWithFrame:CGRectMake(50, 350, 300, 30)];
+    [nextBtn setTitle:@"下拉影藏——tableView表头放大" forState:UIControlStateNormal];
+    [nextBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [nextBtn addTarget:self action:@selector(gotobiger) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:nextBtn];
+    
+    /** iOS11 navi特性 大标题 */
+    UIButton *nextBtn1 = [[UIButton alloc] initWithFrame:CGRectMake(50, 350, 300, 30)];
+    [nextBtn1 setTitle:@"navi特性 大标题" forState:UIControlStateNormal];
+    [nextBtn1 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [nextBtn1 addTarget:self action:@selector(gotobiger) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:nextBtn1];
+    
 }
 
 
@@ -81,6 +96,13 @@
 
 - (void)goNextWithDeleteSelf{
     Navi_VC2 *vc = [[Navi_VC2 alloc] init];
+    [self.rt_navigationController pushViewController:vc animated:vc complete:^(BOOL finished) {
+        [self.rt_navigationController removeViewController:self];
+    }];
+}
+
+- (void)gotobiger{
+    Navi_VC3 *vc = [[Navi_VC3 alloc] init];
     [self.rt_navigationController pushViewController:vc animated:vc complete:^(BOOL finished) {
         [self.rt_navigationController removeViewController:self];
     }];
