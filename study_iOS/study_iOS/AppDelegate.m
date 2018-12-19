@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "RTRootNavigationController.h"
+#import "WK_CustomNavi.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +22,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     ViewController *vc = [[ViewController alloc] init];
-    RTRootNavigationController *rootViewC = [[RTRootNavigationController alloc] initWithRootViewController:vc];
+    WK_CustomNavi *rootViewC = [[WK_CustomNavi alloc] initWithRootViewController:vc];
     self.window.rootViewController = rootViewC;
     
     return YES;

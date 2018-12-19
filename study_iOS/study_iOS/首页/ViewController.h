@@ -6,13 +6,14 @@
 //  Copyright © 2018年 吴铿. All rights reserved.
 //
 
-#import "WK_BaseVC.h"
+#import <UIKit/UIKit.h>
 
-@interface ViewController : WK_BaseVC
+@interface ViewController : UIViewController
 
 @property (nonatomic, strong) NSArray *dataSource;
 
 @property (nonatomic, strong) NSArray *secondDataSource;
+
 
 @end
 

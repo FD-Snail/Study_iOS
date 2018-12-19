@@ -11,14 +11,11 @@
 
 #import "ViewController.h"
 #import "mainTableView_Cell.h"
-#import "Navi_VC1.h"
-#import "Photo_MainVC.h"
+#import "Navi_Demo1.h"
 #import "Touch_MainVC.h"
 #import "FMDBVC.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
-
-
 
 @property (nonatomic, strong) UITableView *tableView;
 
@@ -80,18 +77,19 @@
     return _dataSource.count;
 }
 
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
-        Navi_VC1 *vc1 = [[Navi_VC1 alloc] init];
-        [self.rt_navigationController pushViewController:vc1 animated:true];
+        Navi_Demo1 *demo1 = [[Navi_Demo1 alloc] init];
+        [self.navigationController pushViewController:demo1 animated:true];
     }
     else if(indexPath.row == 1){
-        Photo_MainVC *photo = [[Photo_MainVC alloc] init];
-        [self.rt_navigationController pushViewController:photo animated:true];
+//        Photo_MainVC *photo = [[Photo_MainVC alloc] init];
+//        [self.rt_navigationController pushViewController:photo animated:true];
     }
     else if(indexPath.row == 2){
         Touch_MainVC *touch = [[Touch_MainVC alloc] init];
-        [self.rt_navigationController pushViewController:touch animated:true];
+        [self.navigationController pushViewController:touch animated:true];
     }
 }
 //
@@ -138,5 +136,7 @@
 //- (void)updateFocusIfNeeded { 
 //    <#code#>
 //}
+
+
 
 @end

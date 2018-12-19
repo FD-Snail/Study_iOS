@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		21D767D04AFA8F634972649C /* libPods-study_iOSUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC83DE1E6639BEF1E29D6F11 /* libPods-study_iOSUITests.a */; };
+		62057B7E21AA3477009EF5FA /* WK_CustomNavi.m in Sources */ = {isa = PBXBuildFile; fileRef = 62057B7D21AA3477009EF5FA /* WK_CustomNavi.m */; };
+		62057B8421AA3A6E009EF5FA /* UIColor+WK_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 62057B8321AA3A6E009EF5FA /* UIColor+WK_Custom.m */; };
+		62057B8721AA432A009EF5FA /* Navi_Demo1.m in Sources */ = {isa = PBXBuildFile; fileRef = 62057B8621AA432A009EF5FA /* Navi_Demo1.m */; };
 		624842DD2181740500CF500D /* mainTableView_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842D82181740400CF500D /* mainTableView_Cell.m */; };
 		624842DE2181740500CF500D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842D92181740400CF500D /* ViewController.m */; };
 		624842DF2181740500CF500D /* mainTableView_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 624842DB2181740400CF500D /* mainTableView_Cell.xib */; };
 		624842F021817F8600CF500D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624842EF21817F8600CF500D /* LaunchScreen.storyboard */; };
 		624842F32181804700CF500D /* WK_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842F22181804700CF500D /* WK_Tools.m */; };
-		624842F62181825D00CF500D /* WK_BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842F52181825D00CF500D /* WK_BaseVC.m */; };
-		624842F92181862300CF500D /* Navi_VC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842F82181862300CF500D /* Navi_VC1.m */; };
-		624842FC218197E800CF500D /* Navi_VC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842FB218197E800CF500D /* Navi_VC2.m */; };
 		624C4175218ADD1F0009A795 /* Touch_MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 624C4174218ADD1F0009A795 /* Touch_MainVC.m */; };
+		625777EC219ED2D00086564A /* UIImage+ColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 625777EB219ED2D00086564A /* UIImage+ColorImage.m */; };
 		627D24FD2184087400D04160 /* HXCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D24AA2184087400D04160 /* HXCustomCameraViewController.m */; };
 		627D24FE2184087400D04160 /* UIViewController+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D24AB2184087400D04160 /* UIViewController+HXExtension.m */; };
 		627D24FF2184087400D04160 /* HXPhotoConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D24AC2184087400D04160 /* HXPhotoConfiguration.m */; };
@@ -58,9 +59,6 @@
 		627D25232184087400D04160 /* HXPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 627D24F62184087400D04160 /* HXPhotoPicker.bundle */; };
 		627D25242184087400D04160 /* HXDatePhotoToolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D24F92184087400D04160 /* HXDatePhotoToolManager.m */; };
 		627D25252184087400D04160 /* HXDatePhotoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D24FA2184087400D04160 /* HXDatePhotoEditViewController.m */; };
-		627D25282184192600D04160 /* Photo_MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D25272184192600D04160 /* Photo_MainVC.m */; };
-		627D252B21842AA400D04160 /* Demo1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D252A21842AA400D04160 /* Demo1VC.m */; };
-		62BA29E0218C317A009FEB19 /* Navi_VC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BA29DF218C317A009FEB19 /* Navi_VC3.m */; };
 		62D2329B2180951400332801 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D2329A2180951400332801 /* AppDelegate.m */; };
 		62D232A42180951400332801 /* study_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62D232A22180951400332801 /* study_iOS.xcdatamodeld */; };
 		62D232A62180951500332801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D232A52180951500332801 /* Assets.xcassets */; };
@@ -95,6 +93,12 @@
 		2655DBA3FE2066C63EAB9F29 /* Pods-study_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-study_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-study_iOS/Pods-study_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		2F272173DF612BE8AECFBE6B /* Pods-study_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-study_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-study_iOS/Pods-study_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		3DCA76B6161445A5356F2815 /* Pods-study_iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-study_iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-study_iOSUITests/Pods-study_iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62057B7C21AA3477009EF5FA /* WK_CustomNavi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WK_CustomNavi.h; sourceTree = "<group>"; };
+		62057B7D21AA3477009EF5FA /* WK_CustomNavi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WK_CustomNavi.m; sourceTree = "<group>"; };
+		62057B8221AA3A6E009EF5FA /* UIColor+WK_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WK_Custom.h"; sourceTree = "<group>"; };
+		62057B8321AA3A6E009EF5FA /* UIColor+WK_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WK_Custom.m"; sourceTree = "<group>"; };
+		62057B8521AA432A009EF5FA /* Navi_Demo1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Navi_Demo1.h; sourceTree = "<group>"; };
+		62057B8621AA432A009EF5FA /* Navi_Demo1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Navi_Demo1.m; sourceTree = "<group>"; };
 		624842D82181740400CF500D /* mainTableView_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainTableView_Cell.m; sourceTree = "<group>"; };
 		624842D92181740400CF500D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		624842DA2181740400CF500D /* mainTableView_Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainTableView_Cell.h; sourceTree = "<group>"; };
@@ -104,14 +108,10 @@
 		624842EF21817F8600CF500D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		624842F12181804700CF500D /* WK_Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WK_Tools.h; sourceTree = "<group>"; };
 		624842F22181804700CF500D /* WK_Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WK_Tools.m; sourceTree = "<group>"; };
-		624842F42181825D00CF500D /* WK_BaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WK_BaseVC.h; sourceTree = "<group>"; };
-		624842F52181825D00CF500D /* WK_BaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WK_BaseVC.m; sourceTree = "<group>"; };
-		624842F72181862300CF500D /* Navi_VC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Navi_VC1.h; sourceTree = "<group>"; };
-		624842F82181862300CF500D /* Navi_VC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Navi_VC1.m; sourceTree = "<group>"; };
-		624842FA218197E800CF500D /* Navi_VC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Navi_VC2.h; sourceTree = "<group>"; };
-		624842FB218197E800CF500D /* Navi_VC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Navi_VC2.m; sourceTree = "<group>"; };
 		624C4173218ADD1F0009A795 /* Touch_MainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Touch_MainVC.h; sourceTree = "<group>"; };
 		624C4174218ADD1F0009A795 /* Touch_MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Touch_MainVC.m; sourceTree = "<group>"; };
+		625777EA219ED2D00086564A /* UIImage+ColorImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorImage.h"; sourceTree = "<group>"; };
+		625777EB219ED2D00086564A /* UIImage+ColorImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorImage.m"; sourceTree = "<group>"; };
 		627D24AA2184087400D04160 /* HXCustomCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomCameraViewController.m; sourceTree = "<group>"; };
 		627D24AB2184087400D04160 /* UIViewController+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HXExtension.m"; sourceTree = "<group>"; };
 		627D24AC2184087400D04160 /* HXPhotoConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoConfiguration.m; sourceTree = "<group>"; };
@@ -195,12 +195,6 @@
 		627D24FA2184087400D04160 /* HXDatePhotoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoEditViewController.m; sourceTree = "<group>"; };
 		627D24FB2184087400D04160 /* HXDatePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoViewController.h; sourceTree = "<group>"; };
 		627D24FC2184087400D04160 /* HXDatePhotoViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoViewFlowLayout.h; sourceTree = "<group>"; };
-		627D25262184192600D04160 /* Photo_MainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photo_MainVC.h; sourceTree = "<group>"; };
-		627D25272184192600D04160 /* Photo_MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo_MainVC.m; sourceTree = "<group>"; };
-		627D252921842AA400D04160 /* Demo1VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1VC.h; sourceTree = "<group>"; };
-		627D252A21842AA400D04160 /* Demo1VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1VC.m; sourceTree = "<group>"; };
-		62BA29DE218C317A009FEB19 /* Navi_VC3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Navi_VC3.h; sourceTree = "<group>"; };
-		62BA29DF218C317A009FEB19 /* Navi_VC3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Navi_VC3.m; sourceTree = "<group>"; };
 		62D232962180951400332801 /* study_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = study_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D232992180951400332801 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62D2329A2180951400332801 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -263,6 +257,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		62057B7B21AA343A009EF5FA /* 基类 */ = {
+			isa = PBXGroup;
+			children = (
+				62057B7C21AA3477009EF5FA /* WK_CustomNavi.h */,
+				62057B7D21AA3477009EF5FA /* WK_CustomNavi.m */,
+			);
+			path = "基类";
+			sourceTree = "<group>";
+		};
 		624842D52181735C00CF500D /* libs */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,14 +276,8 @@
 		624842D6218173C200CF500D /* Navi */ = {
 			isa = PBXGroup;
 			children = (
-				624842F42181825D00CF500D /* WK_BaseVC.h */,
-				624842F52181825D00CF500D /* WK_BaseVC.m */,
-				624842F72181862300CF500D /* Navi_VC1.h */,
-				624842F82181862300CF500D /* Navi_VC1.m */,
-				624842FA218197E800CF500D /* Navi_VC2.h */,
-				624842FB218197E800CF500D /* Navi_VC2.m */,
-				62BA29DE218C317A009FEB19 /* Navi_VC3.h */,
-				62BA29DF218C317A009FEB19 /* Navi_VC3.m */,
+				62057B8521AA432A009EF5FA /* Navi_Demo1.h */,
+				62057B8621AA432A009EF5FA /* Navi_Demo1.m */,
 			);
 			path = Navi;
 			sourceTree = "<group>";
@@ -300,6 +297,8 @@
 		624842ED21817E2200CF500D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				62057B7B21AA343A009EF5FA /* 基类 */,
+				625777E9219ED1ED0086564A /* 分类 */,
 				624842EE21817E9300CF500D /* WK_Study_iOS.pch */,
 				624842F12181804700CF500D /* WK_Tools.h */,
 				624842F22181804700CF500D /* WK_Tools.m */,
@@ -316,14 +315,21 @@
 			path = "触摸事件";
 			sourceTree = "<group>";
 		};
+		625777E9219ED1ED0086564A /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				625777EA219ED2D00086564A /* UIImage+ColorImage.h */,
+				625777EB219ED2D00086564A /* UIImage+ColorImage.m */,
+				62057B8221AA3A6E009EF5FA /* UIColor+WK_Custom.h */,
+				62057B8321AA3A6E009EF5FA /* UIColor+WK_Custom.m */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
 		627D24A82184083200D04160 /* 图片选择器及相机 */ = {
 			isa = PBXGroup;
 			children = (
 				627D24A92184087400D04160 /* HXPhotoPicker */,
-				627D25262184192600D04160 /* Photo_MainVC.h */,
-				627D25272184192600D04160 /* Photo_MainVC.m */,
-				627D252921842AA400D04160 /* Demo1VC.h */,
-				627D252A21842AA400D04160 /* Demo1VC.m */,
 			);
 			path = "图片选择器及相机";
 			sourceTree = "<group>";
@@ -788,9 +794,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				627D25052184087400D04160 /* UIImageView+HXExtension.m in Sources */,
-				627D252B21842AA400D04160 /* Demo1VC.m in Sources */,
 				627D25252184087400D04160 /* HXDatePhotoEditViewController.m in Sources */,
-				627D25282184192600D04160 /* Photo_MainVC.m in Sources */,
 				624842DE2181740500CF500D /* ViewController.m in Sources */,
 				62D2329B2180951400332801 /* AppDelegate.m in Sources */,
 				624C4175218ADD1F0009A795 /* Touch_MainVC.m in Sources */,
@@ -803,16 +807,15 @@
 				624842F32181804700CF500D /* WK_Tools.m in Sources */,
 				627D25062184087400D04160 /* UIFont+HXExtension.m in Sources */,
 				627D25022184087400D04160 /* HXDatePhotoPreviewBottomView.m in Sources */,
-				62BA29E0218C317A009FEB19 /* Navi_VC3.m in Sources */,
-				624842F92181862300CF500D /* Navi_VC1.m in Sources */,
-				624842F62181825D00CF500D /* WK_BaseVC.m in Sources */,
 				627D25182184087400D04160 /* NSDate+HXExtension.m in Sources */,
+				625777EC219ED2D00086564A /* UIImage+ColorImage.m in Sources */,
 				62D232AC2180951600332801 /* main.m in Sources */,
 				627D25032184087400D04160 /* NSBundle+HXPhotoPicker.m in Sources */,
 				627D25242184087400D04160 /* HXDatePhotoToolManager.m in Sources */,
 				627D25112184087400D04160 /* HXDatePhotoViewPresentTransition.m in Sources */,
 				627D25012184087400D04160 /* HXPhoto3DTouchViewController.m in Sources */,
 				627D25152184087400D04160 /* HXCustomAssetModel.m in Sources */,
+				62057B7E21AA3477009EF5FA /* WK_CustomNavi.m in Sources */,
 				62D232DC2180CAD400332801 /* FMDBVC.m in Sources */,
 				627D25002184087400D04160 /* HXDownloadProgressView.m in Sources */,
 				627D250E2184087400D04160 /* HXDatePhotoViewFlowLayout.m in Sources */,
@@ -831,8 +834,8 @@
 				627D250B2184087400D04160 /* HXPhotoCustomNavigationBar.m in Sources */,
 				627D25222184087400D04160 /* HXDateVideoEditViewController.m in Sources */,
 				627D25082184087400D04160 /* HXPhotoModel.m in Sources */,
-				624842FC218197E800CF500D /* Navi_VC2.m in Sources */,
 				627D25142184087400D04160 /* HXCustomCollectionReusableView.m in Sources */,
+				62057B8721AA432A009EF5FA /* Navi_Demo1.m in Sources */,
 				627D25102184087400D04160 /* HXPhotoManager.m in Sources */,
 				627D250D2184087400D04160 /* HXDatePhotoPreviewViewController.m in Sources */,
 				627D25042184087400D04160 /* HXCollectionView.m in Sources */,
@@ -841,6 +844,7 @@
 				627D25122184087400D04160 /* HXCustomCameraController.m in Sources */,
 				627D24FD2184087400D04160 /* HXCustomCameraViewController.m in Sources */,
 				627D24FF2184087400D04160 /* HXPhotoConfiguration.m in Sources */,
+				62057B8421AA3A6E009EF5FA /* UIColor+WK_Custom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
