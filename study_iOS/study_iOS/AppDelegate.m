@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "WK_CustomNavi.h"
+#import "UIViewController+WK_NavigationBarTransiton_Public.h"
+
 
 @interface AppDelegate ()
 
@@ -22,8 +23,9 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     ViewController *vc = [[ViewController alloc] init];
-    WK_CustomNavi *rootViewC = [[WK_CustomNavi alloc] initWithRootViewController:vc];
-    self.window.rootViewController = rootViewC;
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
+    [navi openWKNavigationBarFunction:true];
+    self.window.rootViewController = navi;
     
     return YES;
 }

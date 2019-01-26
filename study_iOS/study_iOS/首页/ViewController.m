@@ -11,9 +11,9 @@
 
 #import "ViewController.h"
 #import "mainTableView_Cell.h"
-#import "Navi_Demo1.h"
 #import "Touch_MainVC.h"
 #import "FMDBVC.h"
+#import "NaviDemo.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -28,7 +28,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     /** 设置navi */
-    self.title = @"ROOT";
+    self.title = @"iOS经验总结";
     _dataSource = @[@"Navigation",@"图片选择器和相机",@"触摸事件",@"FMDB",@"转场动画"];
     _secondDataSource = @[@"1.系统的navi\n2.自定义navi，各种运用",
                           @"基于HXPhotoPicker框架的图片选择器。\n1.首先你要Plist里面允许相机及相册。\n2.查看/选择GIF图片，照片和视频同时多选。\n3.3DTouch预览照片。\n4长按拖动改变顺序。\n5.自定义相机拍照/录制视频。\n6.自定义转场动画、查看/选择LivePhoto iOS9.1以上才能用、支持浏览网络图片、支持自定义裁剪、支持传入本地图片、支持在线下载iCloud上的资源",
@@ -80,8 +80,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
-        Navi_Demo1 *demo1 = [[Navi_Demo1 alloc] init];
-        [self.navigationController pushViewController:demo1 animated:true];
+        NaviDemo *demo = [[NaviDemo alloc] init];
+        [self.navigationController pushViewController:demo animated:true];
     }
     else if(indexPath.row == 1){
 //        Photo_MainVC *photo = [[Photo_MainVC alloc] init];

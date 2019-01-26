@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		21D767D04AFA8F634972649C /* libPods-study_iOSUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC83DE1E6639BEF1E29D6F11 /* libPods-study_iOSUITests.a */; };
-		62057B7E21AA3477009EF5FA /* WK_CustomNavi.m in Sources */ = {isa = PBXBuildFile; fileRef = 62057B7D21AA3477009EF5FA /* WK_CustomNavi.m */; };
 		62057B8421AA3A6E009EF5FA /* UIColor+WK_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 62057B8321AA3A6E009EF5FA /* UIColor+WK_Custom.m */; };
-		62057B8721AA432A009EF5FA /* Navi_Demo1.m in Sources */ = {isa = PBXBuildFile; fileRef = 62057B8621AA432A009EF5FA /* Navi_Demo1.m */; };
 		624842DD2181740500CF500D /* mainTableView_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842D82181740400CF500D /* mainTableView_Cell.m */; };
 		624842DE2181740500CF500D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 624842D92181740400CF500D /* ViewController.m */; };
 		624842DF2181740500CF500D /* mainTableView_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 624842DB2181740400CF500D /* mainTableView_Cell.xib */; };
@@ -59,6 +57,16 @@
 		627D25232184087400D04160 /* HXPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 627D24F62184087400D04160 /* HXPhotoPicker.bundle */; };
 		627D25242184087400D04160 /* HXDatePhotoToolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D24F92184087400D04160 /* HXDatePhotoToolManager.m */; };
 		627D25252184087400D04160 /* HXDatePhotoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D24FA2184087400D04160 /* HXDatePhotoEditViewController.m */; };
+		62CFE91121FC57300094BC01 /* WKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CFE90621FC572F0094BC01 /* WKSwizzle.m */; };
+		62CFE91221FC57300094BC01 /* UIImage+WK_NavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CFE90821FC572F0094BC01 /* UIImage+WK_NavigationBarTransition.m */; };
+		62CFE91321FC57300094BC01 /* WK_NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CFE90A21FC572F0094BC01 /* WK_NavigationBar.m */; };
+		62CFE91421FC57300094BC01 /* UINavigationController+WK_NavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CFE90F21FC572F0094BC01 /* UINavigationController+WK_NavigationBarTransition.m */; };
+		62CFE91521FC57300094BC01 /* UIViewController+WK_NavigationBarTranstion.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CFE91021FC572F0094BC01 /* UIViewController+WK_NavigationBarTranstion.m */; };
+		62CFE91821FC57470094BC01 /* ColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CFE91621FC57460094BC01 /* ColorPickerView.m */; };
+		62CFE91B21FC57590094BC01 /* shadowImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CFE91921FC57590094BC01 /* shadowImage.png */; };
+		62CFE91C21FC57590094BC01 /* bgicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CFE91A21FC57590094BC01 /* bgicon.png */; };
+		62CFE92021FC58270094BC01 /* NaviDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CFE91F21FC58270094BC01 /* NaviDemo.m */; };
+		62CFE92321FC58710094BC01 /* BigTitleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CFE92121FC58710094BC01 /* BigTitleVC.m */; };
 		62D2329B2180951400332801 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D2329A2180951400332801 /* AppDelegate.m */; };
 		62D232A42180951400332801 /* study_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62D232A22180951400332801 /* study_iOS.xcdatamodeld */; };
 		62D232A62180951500332801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D232A52180951500332801 /* Assets.xcassets */; };
@@ -93,12 +101,8 @@
 		2655DBA3FE2066C63EAB9F29 /* Pods-study_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-study_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-study_iOS/Pods-study_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		2F272173DF612BE8AECFBE6B /* Pods-study_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-study_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-study_iOS/Pods-study_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		3DCA76B6161445A5356F2815 /* Pods-study_iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-study_iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-study_iOSUITests/Pods-study_iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		62057B7C21AA3477009EF5FA /* WK_CustomNavi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WK_CustomNavi.h; sourceTree = "<group>"; };
-		62057B7D21AA3477009EF5FA /* WK_CustomNavi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WK_CustomNavi.m; sourceTree = "<group>"; };
 		62057B8221AA3A6E009EF5FA /* UIColor+WK_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WK_Custom.h"; sourceTree = "<group>"; };
 		62057B8321AA3A6E009EF5FA /* UIColor+WK_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WK_Custom.m"; sourceTree = "<group>"; };
-		62057B8521AA432A009EF5FA /* Navi_Demo1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Navi_Demo1.h; sourceTree = "<group>"; };
-		62057B8621AA432A009EF5FA /* Navi_Demo1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Navi_Demo1.m; sourceTree = "<group>"; };
 		624842D82181740400CF500D /* mainTableView_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainTableView_Cell.m; sourceTree = "<group>"; };
 		624842D92181740400CF500D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		624842DA2181740400CF500D /* mainTableView_Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainTableView_Cell.h; sourceTree = "<group>"; };
@@ -195,6 +199,25 @@
 		627D24FA2184087400D04160 /* HXDatePhotoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoEditViewController.m; sourceTree = "<group>"; };
 		627D24FB2184087400D04160 /* HXDatePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoViewController.h; sourceTree = "<group>"; };
 		627D24FC2184087400D04160 /* HXDatePhotoViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoViewFlowLayout.h; sourceTree = "<group>"; };
+		62CFE90621FC572F0094BC01 /* WKSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKSwizzle.m; sourceTree = "<group>"; };
+		62CFE90721FC572F0094BC01 /* UINavigationController+WK_NavigationBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+WK_NavigationBarTransition.h"; sourceTree = "<group>"; };
+		62CFE90821FC572F0094BC01 /* UIImage+WK_NavigationBarTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WK_NavigationBarTransition.m"; sourceTree = "<group>"; };
+		62CFE90921FC572F0094BC01 /* UIViewController+WK_NavigationBarTransiton_Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WK_NavigationBarTransiton_Public.h"; sourceTree = "<group>"; };
+		62CFE90A21FC572F0094BC01 /* WK_NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WK_NavigationBar.m; sourceTree = "<group>"; };
+		62CFE90B21FC572F0094BC01 /* UIViewController+WK_NavigationBarTranstion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WK_NavigationBarTranstion.h"; sourceTree = "<group>"; };
+		62CFE90C21FC572F0094BC01 /* WKSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKSwizzle.h; sourceTree = "<group>"; };
+		62CFE90D21FC572F0094BC01 /* WK_NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WK_NavigationBar.h; sourceTree = "<group>"; };
+		62CFE90E21FC572F0094BC01 /* UIImage+WK_NavigationBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WK_NavigationBarTransition.h"; sourceTree = "<group>"; };
+		62CFE90F21FC572F0094BC01 /* UINavigationController+WK_NavigationBarTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+WK_NavigationBarTransition.m"; sourceTree = "<group>"; };
+		62CFE91021FC572F0094BC01 /* UIViewController+WK_NavigationBarTranstion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WK_NavigationBarTranstion.m"; sourceTree = "<group>"; };
+		62CFE91621FC57460094BC01 /* ColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerView.m; sourceTree = "<group>"; };
+		62CFE91721FC57460094BC01 /* ColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerView.h; sourceTree = "<group>"; };
+		62CFE91921FC57590094BC01 /* shadowImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadowImage.png; sourceTree = "<group>"; };
+		62CFE91A21FC57590094BC01 /* bgicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgicon.png; sourceTree = "<group>"; };
+		62CFE91E21FC58270094BC01 /* NaviDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NaviDemo.h; sourceTree = "<group>"; };
+		62CFE91F21FC58270094BC01 /* NaviDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaviDemo.m; sourceTree = "<group>"; };
+		62CFE92121FC58710094BC01 /* BigTitleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigTitleVC.m; sourceTree = "<group>"; };
+		62CFE92221FC58710094BC01 /* BigTitleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigTitleVC.h; sourceTree = "<group>"; };
 		62D232962180951400332801 /* study_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = study_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D232992180951400332801 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62D2329A2180951400332801 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -257,29 +280,11 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		62057B7B21AA343A009EF5FA /* 基类 */ = {
-			isa = PBXGroup;
-			children = (
-				62057B7C21AA3477009EF5FA /* WK_CustomNavi.h */,
-				62057B7D21AA3477009EF5FA /* WK_CustomNavi.m */,
-			);
-			path = "基类";
-			sourceTree = "<group>";
-		};
 		624842D52181735C00CF500D /* libs */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = libs;
-			sourceTree = "<group>";
-		};
-		624842D6218173C200CF500D /* Navi */ = {
-			isa = PBXGroup;
-			children = (
-				62057B8521AA432A009EF5FA /* Navi_Demo1.h */,
-				62057B8621AA432A009EF5FA /* Navi_Demo1.m */,
-			);
-			path = Navi;
 			sourceTree = "<group>";
 		};
 		624842D72181740400CF500D /* 首页 */ = {
@@ -297,9 +302,11 @@
 		624842ED21817E2200CF500D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				62057B7B21AA343A009EF5FA /* 基类 */,
+				62CFE90521FC572F0094BC01 /* WK_NavigationBarTransition */,
 				625777E9219ED1ED0086564A /* 分类 */,
 				624842EE21817E9300CF500D /* WK_Study_iOS.pch */,
+				62CFE91721FC57460094BC01 /* ColorPickerView.h */,
+				62CFE91621FC57460094BC01 /* ColorPickerView.m */,
 				624842F12181804700CF500D /* WK_Tools.h */,
 				624842F22181804700CF500D /* WK_Tools.m */,
 			);
@@ -424,6 +431,37 @@
 			path = HXPhotoPicker;
 			sourceTree = "<group>";
 		};
+		62CFE90521FC572F0094BC01 /* WK_NavigationBarTransition */ = {
+			isa = PBXGroup;
+			children = (
+				62CFE91A21FC57590094BC01 /* bgicon.png */,
+				62CFE91921FC57590094BC01 /* shadowImage.png */,
+				62CFE90C21FC572F0094BC01 /* WKSwizzle.h */,
+				62CFE90621FC572F0094BC01 /* WKSwizzle.m */,
+				62CFE90E21FC572F0094BC01 /* UIImage+WK_NavigationBarTransition.h */,
+				62CFE90821FC572F0094BC01 /* UIImage+WK_NavigationBarTransition.m */,
+				62CFE90D21FC572F0094BC01 /* WK_NavigationBar.h */,
+				62CFE90A21FC572F0094BC01 /* WK_NavigationBar.m */,
+				62CFE90721FC572F0094BC01 /* UINavigationController+WK_NavigationBarTransition.h */,
+				62CFE90F21FC572F0094BC01 /* UINavigationController+WK_NavigationBarTransition.m */,
+				62CFE90921FC572F0094BC01 /* UIViewController+WK_NavigationBarTransiton_Public.h */,
+				62CFE90B21FC572F0094BC01 /* UIViewController+WK_NavigationBarTranstion.h */,
+				62CFE91021FC572F0094BC01 /* UIViewController+WK_NavigationBarTranstion.m */,
+			);
+			path = WK_NavigationBarTransition;
+			sourceTree = "<group>";
+		};
+		62CFE91D21FC580C0094BC01 /* Navi */ = {
+			isa = PBXGroup;
+			children = (
+				62CFE91E21FC58270094BC01 /* NaviDemo.h */,
+				62CFE91F21FC58270094BC01 /* NaviDemo.m */,
+				62CFE92221FC58710094BC01 /* BigTitleVC.h */,
+				62CFE92121FC58710094BC01 /* BigTitleVC.m */,
+			);
+			path = Navi;
+			sourceTree = "<group>";
+		};
 		62D2328D2180951400332801 = {
 			isa = PBXGroup;
 			children = (
@@ -453,7 +491,7 @@
 				62D2329A2180951400332801 /* AppDelegate.m */,
 				624842ED21817E2200CF500D /* Tools */,
 				624842D72181740400CF500D /* 首页 */,
-				624842D6218173C200CF500D /* Navi */,
+				62CFE91D21FC580C0094BC01 /* Navi */,
 				627D24A82184083200D04160 /* 图片选择器及相机 */,
 				624C4172218ADC380009A795 /* 触摸事件 */,
 				62D232D42180B34700332801 /* FMDB */,
@@ -627,8 +665,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62CFE91B21FC57590094BC01 /* shadowImage.png in Resources */,
 				627D25232184087400D04160 /* HXPhotoPicker.bundle in Resources */,
 				624842F021817F8600CF500D /* LaunchScreen.storyboard in Resources */,
+				62CFE91C21FC57590094BC01 /* bgicon.png in Resources */,
 				62D232A62180951500332801 /* Assets.xcassets in Resources */,
 				624842DF2181740500CF500D /* mainTableView_Cell.xib in Resources */,
 			);
@@ -799,7 +839,9 @@
 				62D2329B2180951400332801 /* AppDelegate.m in Sources */,
 				624C4175218ADD1F0009A795 /* Touch_MainVC.m in Sources */,
 				627D25092184087400D04160 /* HXAlbumListViewController.m in Sources */,
+				62CFE91521FC57300094BC01 /* UIViewController+WK_NavigationBarTranstion.m in Sources */,
 				627D25072184087400D04160 /* HXDatePhotoInteractiveTransition.m in Sources */,
+				62CFE92321FC58710094BC01 /* BigTitleVC.m in Sources */,
 				627D25162184087400D04160 /* HXPhotoView.m in Sources */,
 				627D251B2184087400D04160 /* HXPhotoSubViewCell.m in Sources */,
 				627D25212184087400D04160 /* HXCircleProgressView.m in Sources */,
@@ -809,13 +851,13 @@
 				627D25022184087400D04160 /* HXDatePhotoPreviewBottomView.m in Sources */,
 				627D25182184087400D04160 /* NSDate+HXExtension.m in Sources */,
 				625777EC219ED2D00086564A /* UIImage+ColorImage.m in Sources */,
+				62CFE91321FC57300094BC01 /* WK_NavigationBar.m in Sources */,
 				62D232AC2180951600332801 /* main.m in Sources */,
 				627D25032184087400D04160 /* NSBundle+HXPhotoPicker.m in Sources */,
 				627D25242184087400D04160 /* HXDatePhotoToolManager.m in Sources */,
 				627D25112184087400D04160 /* HXDatePhotoViewPresentTransition.m in Sources */,
 				627D25012184087400D04160 /* HXPhoto3DTouchViewController.m in Sources */,
 				627D25152184087400D04160 /* HXCustomAssetModel.m in Sources */,
-				62057B7E21AA3477009EF5FA /* WK_CustomNavi.m in Sources */,
 				62D232DC2180CAD400332801 /* FMDBVC.m in Sources */,
 				627D25002184087400D04160 /* HXDownloadProgressView.m in Sources */,
 				627D250E2184087400D04160 /* HXDatePhotoViewFlowLayout.m in Sources */,
@@ -828,14 +870,17 @@
 				62D232A42180951400332801 /* study_iOS.xcdatamodeld in Sources */,
 				627D251F2184087400D04160 /* HXCustomPreviewView.m in Sources */,
 				627D250C2184087400D04160 /* HXPhotoTools.m in Sources */,
+				62CFE91821FC57470094BC01 /* ColorPickerView.m in Sources */,
 				627D250F2184087400D04160 /* HXDatePhotoViewController.m in Sources */,
 				627D251C2184087400D04160 /* HXAlbumModel.m in Sources */,
+				62CFE91221FC57300094BC01 /* UIImage+WK_NavigationBarTransition.m in Sources */,
+				62CFE91421FC57300094BC01 /* UINavigationController+WK_NavigationBarTransition.m in Sources */,
 				627D251E2184087400D04160 /* UIButton+HXExtension.m in Sources */,
 				627D250B2184087400D04160 /* HXPhotoCustomNavigationBar.m in Sources */,
 				627D25222184087400D04160 /* HXDateVideoEditViewController.m in Sources */,
 				627D25082184087400D04160 /* HXPhotoModel.m in Sources */,
 				627D25142184087400D04160 /* HXCustomCollectionReusableView.m in Sources */,
-				62057B8721AA432A009EF5FA /* Navi_Demo1.m in Sources */,
+				62CFE91121FC57300094BC01 /* WKSwizzle.m in Sources */,
 				627D25102184087400D04160 /* HXPhotoManager.m in Sources */,
 				627D250D2184087400D04160 /* HXDatePhotoPreviewViewController.m in Sources */,
 				627D25042184087400D04160 /* HXCollectionView.m in Sources */,
@@ -844,6 +889,7 @@
 				627D25122184087400D04160 /* HXCustomCameraController.m in Sources */,
 				627D24FD2184087400D04160 /* HXCustomCameraViewController.m in Sources */,
 				627D24FF2184087400D04160 /* HXPhotoConfiguration.m in Sources */,
+				62CFE92021FC58270094BC01 /* NaviDemo.m in Sources */,
 				62057B8421AA3A6E009EF5FA /* UIColor+WK_Custom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

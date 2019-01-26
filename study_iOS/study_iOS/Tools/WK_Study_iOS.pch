@@ -10,7 +10,6 @@
 #define WK_Study_iOS_pch
 
 #import "WK_Tools.h"
-#import "WK_CustomNavi.h"
 #import "UIColor+WK_Custom.h"
 #import "Masonry.h"
 
