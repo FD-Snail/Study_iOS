@@ -7,6 +7,7 @@
 //
 
 #import "BigTitleVC.h"
+#import "UIViewController+WK_NavigationBarTransiton_Public.h"
 
 @interface BigTitleVC ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -24,10 +25,13 @@
     self.datasource = [[NSMutableArray alloc] initWithArray:@[@(1),@(1),@(1),@(1),@(1),@(1),@(1),
                                                               @(1),@(1),@(1),@(1),@(1),@(1),@(1),
                                                               @(1),@(1),@(1),@(1),@(1),@(1),@(1),]];
+    [self wk_setNavigationBarBackgroundColor:[UIColor whiteColor]];
+    [self wk_setNavigationBarShadowImageBackgroundColor:[UIColor clearColor]];
     if (@available(iOS 11.0, *)) {
         UISearchController *search = [[UISearchController alloc] initWithSearchResultsController:nil];
         self.navigationItem.searchController = search;
         [self.navigationController.navigationBar setPrefersLargeTitles:true];
+        
 //        NSDictionary *attributes = @{NSForegroundColorAttributeName:UIColorRGB(arc4random() % 255, arc4random() % 255, arc4random() % 255)};
 //        self.navigationController.navigationBar.largeTitleTextAttributes = attributes;
     } else {

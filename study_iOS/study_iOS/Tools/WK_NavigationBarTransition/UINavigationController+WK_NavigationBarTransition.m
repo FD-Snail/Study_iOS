@@ -41,6 +41,13 @@
         decodedString = [[NSString alloc] initWithData:[[NSData alloc] initWithBase64EncodedString:@"X2JhY2tncm91bmRWaWV3" options:NSDataBase64DecodingIgnoreUnknownCharacters] encoding:NSUTF8StringEncoding];
     });
     
+//    if (@available(iOS 11.0, *)) {
+//        if (self.navigationBar.prefersLargeTitles == true) {
+//            return [self.navigationBar valueForKey:decodedString];
+//        }
+//    } else {
+//        return [self.navigationBar valueForKey:decodedString];
+//    }
     return [self.navigationBar valueForKey:decodedString];
 }
 

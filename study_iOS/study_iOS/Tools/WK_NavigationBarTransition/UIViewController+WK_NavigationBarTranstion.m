@@ -290,6 +290,13 @@
         rect.size.height = rect.origin.y + rect.size.height;
         rect.origin.y = 0;
     }
+    if (@available(iOS 11.0, *)) {
+        if (self.navigationController.navigationBar.prefersLargeTitles == true) {
+            
+        }
+    } else {
+        return rect;
+    }
     return rect;
 }
 
@@ -300,9 +307,9 @@
  */
 - (BOOL)canAddCustomNavBar{
     /** 前面的控制器是Navi */
-    if (![self.parentViewController isKindOfClass:[UINavigationController class]]) {
-        return false;
-    }
+//    if (![self.parentViewController isKindOfClass:[UINavigationController class]]) {
+//        return false;
+//    }
     /** 自己有Navi控制器 */
     if (!self.navigationController) {
         return false;

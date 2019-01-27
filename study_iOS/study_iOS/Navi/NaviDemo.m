@@ -224,6 +224,11 @@
 - (void)pushBigTitleVC:(UIButton *)sender{
     BigTitleVC *vc = [[BigTitleVC alloc] init];
     vc.title = @"iOS11新特性";
+    if (@available(iOS 11.0, *)) {
+        vc.navigationController.navigationBar.prefersLargeTitles = true;
+    } else {
+        // Fallback on earlier versions
+    }
     [self.navigationController pushViewController:vc animated:true];
 }
 
