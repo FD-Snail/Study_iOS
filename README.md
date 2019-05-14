@@ -3,7 +3,8 @@
 
 ### 1.navigation
 - 简介  
-	使用WKNavigationBarTransition可以为每个ViewController的NavigationBar设置自己的颜色、透明度、以及隐藏/显示，并且不同样式的NavigationBar在进行push或者pop时，动画过度和谐美观。
+	使用WKNavigationBarTransition可以为每个ViewController的NavigationBar设置自己的颜色、透明度、以及隐藏/显示，并且不同样式的NavigationBar在进行push或者pop时，动画过度和谐美观。  
+`iOS11新特性适配不好。等有空了在进行适配`
 	
 - 实现原理：
 	1. 系统的NavigationBar是全局的。所以只要更改就把所有的都改掉了，一个应用中多个页面的NavigationBar都不一致的情况就会比较繁琐。所以就自定义NavigationBar使每一个页面都有一个独立的NavigationBar。
@@ -20,3 +21,12 @@
 	5. 改变navigationBar的ShadowImage，调用:`[viewController wk_setNavigationBarShadowImage:]`
 	6. 改变navigationBar的ShadowImage的BackgroundColor，调用:`[viewController wk_setNavigationBarShadowImageBackgroundColor:]`
 	7. 隐藏/显示则直接调用UINavigationController中原生的设置NavigationBar隐藏的方法`[navigationController setNavigationBarHidden:]`或`[navigationController setNavigationBarHidden:animated:]`
+
+	
+### 2.照片拾取器及相机
+-  一个支持多选、选原图和视频的图片选择器，同时有预览功能，支持iOS6+。
+  1. 关于升级iOS10和Xcdoe8的提示:    
+ 在Xcode8环境下将项目运行在iOS10的设备/模拟器中，访问相册和相机需要额外配置info.plist文件。分别是Privacy - Photo Library Usage Description和Privacy - Camera Usage Description字段，详见Demo中info.plist中的设置。
+  2. 先说明一下：FLAnimatedImage 是由Flipboard开源的iOS平台上播放GIF动画的一个优秀解决方案，在内存占用和播放体验都有不错的表现。详见[FLAnimatedImage详解](https://www.jianshu.com/p/10644979f01c)
+  
+  
