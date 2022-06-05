@@ -21,6 +21,17 @@
 		6287F1EF2200897E00384ABF /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6287F1EC2200897E00384ABF /* FLAnimatedImage.m */; };
 		6287F1F02200897E00384ABF /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6287F1EE2200897E00384ABF /* FLAnimatedImageView.m */; };
 		6287F1F32211024300384ABF /* PhotoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6287F1F22211024300384ABF /* PhotoVC.m */; };
+		6293068528488552006511D2 /* cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 6293068428488552006511D2 /* cocoa.m */; };
+		6293068E28489210006511D2 /* MytabbarC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6293068D28489210006511D2 /* MytabbarC.m */; };
+		62AF110F2849D50F00F01576 /* WK_Tabbal.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AF110E2849D50F00F01576 /* WK_Tabbal.m */; };
+		62AF11122849D57700F01576 /* WK_TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AF11112849D57700F01576 /* WK_TabBarController.m */; };
+		62AF11152849E09900F01576 /* WK_TabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AF11142849E09900F01576 /* WK_TabbarItem.m */; };
+		62AF1118284A0BBF00F01576 /* WK_TabbarItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AF1117284A0BBF00F01576 /* WK_TabbarItemCell.m */; };
+		62AF111B284C23EC00F01576 /* WK_FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AF111A284C23EC00F01576 /* WK_FirstVC.m */; };
+		62AF111E284C240700F01576 /* WK_SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AF111D284C240700F01576 /* WK_SecondVC.m */; };
+		62AF1121284C242300F01576 /* WK_ThreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AF1120284C242300F01576 /* WK_ThreeVC.m */; };
+		62AF1124284C244200F01576 /* WK_FourVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AF1123284C244200F01576 /* WK_FourVC.m */; };
+		62AF1127284C245700F01576 /* WK_FiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AF1126284C245700F01576 /* WK_FiveVC.m */; };
 		62CAEFD7228A7407005AFADD /* gestureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CAEFD6228A7407005AFADD /* gestureVC.m */; };
 		62CAEFD9228A79CD005AFADD /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62CAEFD8228A79CD005AFADD /* image.jpg */; };
 		62CFE91121FC57300094BC01 /* WKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CFE90621FC572F0094BC01 /* WKSwizzle.m */; };
@@ -91,6 +102,28 @@
 		6287F1EE2200897E00384ABF /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
 		6287F1F12211024300384ABF /* PhotoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoVC.h; sourceTree = "<group>"; };
 		6287F1F22211024300384ABF /* PhotoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoVC.m; sourceTree = "<group>"; };
+		6293068328488552006511D2 /* cocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocoa.h; sourceTree = "<group>"; };
+		6293068428488552006511D2 /* cocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoa.m; sourceTree = "<group>"; };
+		6293068C28489210006511D2 /* MytabbarC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MytabbarC.h; sourceTree = "<group>"; };
+		6293068D28489210006511D2 /* MytabbarC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MytabbarC.m; sourceTree = "<group>"; };
+		62AF110D2849D50F00F01576 /* WK_Tabbal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WK_Tabbal.h; sourceTree = "<group>"; };
+		62AF110E2849D50F00F01576 /* WK_Tabbal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WK_Tabbal.m; sourceTree = "<group>"; };
+		62AF11102849D57700F01576 /* WK_TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WK_TabBarController.h; sourceTree = "<group>"; };
+		62AF11112849D57700F01576 /* WK_TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WK_TabBarController.m; sourceTree = "<group>"; };
+		62AF11132849E09900F01576 /* WK_TabbarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WK_TabbarItem.h; sourceTree = "<group>"; };
+		62AF11142849E09900F01576 /* WK_TabbarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WK_TabbarItem.m; sourceTree = "<group>"; };
+		62AF1116284A0BBF00F01576 /* WK_TabbarItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WK_TabbarItemCell.h; sourceTree = "<group>"; };
+		62AF1117284A0BBF00F01576 /* WK_TabbarItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WK_TabbarItemCell.m; sourceTree = "<group>"; };
+		62AF1119284C23EC00F01576 /* WK_FirstVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WK_FirstVC.h; sourceTree = "<group>"; };
+		62AF111A284C23EC00F01576 /* WK_FirstVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WK_FirstVC.m; sourceTree = "<group>"; };
+		62AF111C284C240700F01576 /* WK_SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WK_SecondVC.h; sourceTree = "<group>"; };
+		62AF111D284C240700F01576 /* WK_SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WK_SecondVC.m; sourceTree = "<group>"; };
+		62AF111F284C242300F01576 /* WK_ThreeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WK_ThreeVC.h; sourceTree = "<group>"; };
+		62AF1120284C242300F01576 /* WK_ThreeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WK_ThreeVC.m; sourceTree = "<group>"; };
+		62AF1122284C244200F01576 /* WK_FourVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WK_FourVC.h; sourceTree = "<group>"; };
+		62AF1123284C244200F01576 /* WK_FourVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WK_FourVC.m; sourceTree = "<group>"; };
+		62AF1125284C245700F01576 /* WK_FiveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WK_FiveVC.h; sourceTree = "<group>"; };
+		62AF1126284C245700F01576 /* WK_FiveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WK_FiveVC.m; sourceTree = "<group>"; };
 		62CAEFD5228A7407005AFADD /* gestureVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gestureVC.h; sourceTree = "<group>"; };
 		62CAEFD6228A7407005AFADD /* gestureVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gestureVC.m; sourceTree = "<group>"; };
 		62CAEFD8228A79CD005AFADD /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
@@ -284,6 +317,50 @@
 			path = "图片选择器及相机";
 			sourceTree = "<group>";
 		};
+		6293067628488144006511D2 /* 开源中国 */ = {
+			isa = PBXGroup;
+			children = (
+				6293068328488552006511D2 /* cocoa.h */,
+				6293068428488552006511D2 /* cocoa.m */,
+				6293068C28489210006511D2 /* MytabbarC.h */,
+				6293068D28489210006511D2 /* MytabbarC.m */,
+			);
+			path = "开源中国";
+			sourceTree = "<group>";
+		};
+		6293068F284893B8006511D2 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				62AF11102849D57700F01576 /* WK_TabBarController.h */,
+				62AF11112849D57700F01576 /* WK_TabBarController.m */,
+				62AF110D2849D50F00F01576 /* WK_Tabbal.h */,
+				62AF110E2849D50F00F01576 /* WK_Tabbal.m */,
+				62AF11132849E09900F01576 /* WK_TabbarItem.h */,
+				62AF11142849E09900F01576 /* WK_TabbarItem.m */,
+				62AF1116284A0BBF00F01576 /* WK_TabbarItemCell.h */,
+				62AF1117284A0BBF00F01576 /* WK_TabbarItemCell.m */,
+				62930693284897EA006511D2 /* subControls */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		62930693284897EA006511D2 /* subControls */ = {
+			isa = PBXGroup;
+			children = (
+				62AF1119284C23EC00F01576 /* WK_FirstVC.h */,
+				62AF111A284C23EC00F01576 /* WK_FirstVC.m */,
+				62AF111C284C240700F01576 /* WK_SecondVC.h */,
+				62AF111D284C240700F01576 /* WK_SecondVC.m */,
+				62AF111F284C242300F01576 /* WK_ThreeVC.h */,
+				62AF1120284C242300F01576 /* WK_ThreeVC.m */,
+				62AF1122284C244200F01576 /* WK_FourVC.h */,
+				62AF1123284C244200F01576 /* WK_FourVC.m */,
+				62AF1125284C245700F01576 /* WK_FiveVC.h */,
+				62AF1126284C245700F01576 /* WK_FiveVC.m */,
+			);
+			path = subControls;
+			sourceTree = "<group>";
+		};
 		62CAEFD4228A728A005AFADD /* 手势 */ = {
 			isa = PBXGroup;
 			children = (
@@ -359,9 +436,11 @@
 				624C4172218ADC380009A795 /* 触摸事件 */,
 				62D232D42180B34700332801 /* FMDB */,
 				62CAEFD4228A728A005AFADD /* 手势 */,
-				62D232A52180951500332801 /* Assets.xcassets */,
-				62D232AA2180951600332801 /* Info.plist */,
+				6293068F284893B8006511D2 /* Tabbar */,
+				6293067628488144006511D2 /* 开源中国 */,
 				62D232AB2180951600332801 /* main.m */,
+				62D232AA2180951600332801 /* Info.plist */,
+				62D232A52180951500332801 /* Assets.xcassets */,
 				624842EF21817F8600CF500D /* LaunchScreen.storyboard */,
 				624842D52181735C00CF500D /* libs */,
 				62D232A22180951400332801 /* study_iOS.xcdatamodeld */,
@@ -425,8 +504,6 @@
 				62D232922180951400332801 /* Sources */,
 				62D232932180951400332801 /* Frameworks */,
 				62D232942180951400332801 /* Resources */,
-				CD0B8F08201964DF38836806 /* [CP] Embed Pods Frameworks */,
-				4ACE50ACF57B6F1F957B25D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -445,8 +522,6 @@
 				62D232AD2180951600332801 /* Sources */,
 				62D232AE2180951600332801 /* Frameworks */,
 				62D232AF2180951600332801 /* Resources */,
-				C6A6324E5253516F7E6F74AC /* [CP] Embed Pods Frameworks */,
-				D04300B87B23916CB7DD47E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -466,8 +541,6 @@
 				62D232B82180951600332801 /* Sources */,
 				62D232B92180951600332801 /* Frameworks */,
 				62D232BA2180951600332801 /* Resources */,
-				84AB8EC03ABF9BD8102E8980 /* [CP] Embed Pods Frameworks */,
-				D8F43E02B1292B286576FF6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -556,49 +629,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4ACE50ACF57B6F1F957B25D8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-study_iOS/Pods-study_iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		79015CD4570240009AFE7603 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-study_iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		84AB8EC03ABF9BD8102E8980 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-study_iOSUITests/Pods-study_iOSUITests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C4D5B54E2505491A6AC62AB0 /* [CP] Check Pods Manifest.lock */ = {
@@ -607,58 +653,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-study_iOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C6A6324E5253516F7E6F74AC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-study_iOSTests/Pods-study_iOSTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CD0B8F08201964DF38836806 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-study_iOS/Pods-study_iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D04300B87B23916CB7DD47E3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-study_iOSTests/Pods-study_iOSTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D7592FF7F69E3075EDCEF371 /* [CP] Check Pods Manifest.lock */ = {
@@ -667,28 +671,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-study_iOSUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D8F43E02B1292B286576FF6C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-study_iOSUITests/Pods-study_iOSUITests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -704,22 +696,33 @@
 				62CFE91521FC57300094BC01 /* UIViewController+WK_NavigationBarTranstion.m in Sources */,
 				62CFE92321FC58710094BC01 /* BigTitleVC.m in Sources */,
 				624842F32181804700CF500D /* WK_Tools.m in Sources */,
+				62AF111B284C23EC00F01576 /* WK_FirstVC.m in Sources */,
 				6287F1F32211024300384ABF /* PhotoVC.m in Sources */,
 				625777EC219ED2D00086564A /* UIImage+ColorImage.m in Sources */,
+				62AF1118284A0BBF00F01576 /* WK_TabbarItemCell.m in Sources */,
 				62CFE91321FC57300094BC01 /* WK_NavigationBar.m in Sources */,
+				62AF1121284C242300F01576 /* WK_ThreeVC.m in Sources */,
+				6293068E28489210006511D2 /* MytabbarC.m in Sources */,
 				62D232AC2180951600332801 /* main.m in Sources */,
 				62D232DC2180CAD400332801 /* FMDBVC.m in Sources */,
 				624842DD2181740500CF500D /* mainTableView_Cell.m in Sources */,
+				62AF11122849D57700F01576 /* WK_TabBarController.m in Sources */,
+				62AF1124284C244200F01576 /* WK_FourVC.m in Sources */,
 				6227309A2216DC0600CDDA85 /* UIView+blackBackView.m in Sources */,
 				62D232A42180951400332801 /* study_iOS.xcdatamodeld in Sources */,
 				62CFE91821FC57470094BC01 /* ColorPickerView.m in Sources */,
+				6293068528488552006511D2 /* cocoa.m in Sources */,
 				62CFE91221FC57300094BC01 /* UIImage+WK_NavigationBarTransition.m in Sources */,
 				62CFE91421FC57300094BC01 /* UINavigationController+WK_NavigationBarTransition.m in Sources */,
+				62AF11152849E09900F01576 /* WK_TabbarItem.m in Sources */,
+				62AF1127284C245700F01576 /* WK_FiveVC.m in Sources */,
 				6287F1F02200897E00384ABF /* FLAnimatedImageView.m in Sources */,
 				62CAEFD7228A7407005AFADD /* gestureVC.m in Sources */,
 				6287F1EF2200897E00384ABF /* FLAnimatedImage.m in Sources */,
 				62CFE91121FC57300094BC01 /* WKSwizzle.m in Sources */,
+				62AF110F2849D50F00F01576 /* WK_Tabbal.m in Sources */,
 				62CFE92021FC58270094BC01 /* NaviDemo.m in Sources */,
+				62AF111E284C240700F01576 /* WK_SecondVC.m in Sources */,
 				62057B8421AA3A6E009EF5FA /* UIColor+WK_Custom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
